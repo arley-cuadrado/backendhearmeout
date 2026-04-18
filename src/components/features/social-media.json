@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_features_social_medias",
+  "info": {
+    "displayName": "socialMedia",
+    "icon": "emotionHappy"
+  },
+  "options": {},
+  "attributes": {
+    "instagram": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "tiktok": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "x": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

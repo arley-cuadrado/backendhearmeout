@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_features_testimonials",
+  "info": {
+    "displayName": "testimonial",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

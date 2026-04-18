@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_features_tour_lists",
+  "info": {
+    "displayName": "tourList",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "city": {
+      "type": "string"
+    },
+    "venue": {
+      "type": "string"
+    },
+    "buy": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

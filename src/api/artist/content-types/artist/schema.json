@@ -1,0 +1,80 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artists",
+  "info": {
+    "singularName": "artist",
+    "pluralName": "artists",
+    "displayName": "Artists"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "musicGenre": {
+      "type": "string"
+    },
+    "urlVideo": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "bodyContent": {
+      "type": "dynamiczone",
+      "components": [
+        "features.rich-text",
+        "features.quote"
+      ]
+    },
+    "releasesTitle": {
+      "type": "richtext"
+    },
+    "event": {
+      "type": "component",
+      "component": "features.tour",
+      "repeatable": true
+    },
+    "spotifyAccount": {
+      "type": "text"
+    },
+    "socialMedia": {
+      "type": "component",
+      "component": "features.social-media",
+      "repeatable": true
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
